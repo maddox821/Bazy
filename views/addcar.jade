@@ -1,0 +1,31 @@
+extends layout
+
+block content
+
+  table
+    thead
+        tr
+        h1 Dodaj samochód do bazy danych
+        p Podaj model samochodu
+         form(action='addnewcar.html' method="post")
+          input(type='text', name='model')
+          p Podaj pojemność silnika         
+          input(type='text', name='engineCapacity')
+          p Podaj moc samochodu         
+          input(type='text', name='enginePower')
+          p Podaj paliwo jakim jest napędzany samochód        
+          input(type='text', name='fuel')
+          p Podaj rodzaj napędu         
+          input(type='text', name='wheelDrive')
+          p Dodaj krótki opis samochodu        
+          input(type='text', name='carDescription')
+          p Podaj rok samochodu        
+          input(type='text', name='modelYear')
+          p Podaj markę samochodu         
+          input(type='text', name='brandName')
+          p Podaj nazwę fabryki, w której produkowany jest samochód        
+          input(type='text', name='factoryName')
+          p Podaj ścieżkę do zdjęcia
+          input(type='text', name='picture_path')
+          p
+          input(type='submit', value='Dodaj samochod')  

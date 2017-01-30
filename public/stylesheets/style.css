@@ -1,0 +1,83 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #2E2E2E;
+  color: white;
+}
+
+IMG.displayed {  
+    float:left;
+}
+input {
+	color: black;
+}
+a {
+    color: #00B7FF;
+}
+
+.container1 {
+    margin-bottom: 20px;
+    float:left;
+}
+
+form {
+	text-color:black;
+}
+
+th {
+    padding: 11px;
+}
+
+input[type=text]
+{
+	width: 370px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 3px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+    -webkit-box-shadow: 9px 10px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 14px -4px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 14px -4px rgba(0,0,0,0.75);
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgb(abo204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: firebrick;
+}
+
+input[type=submit]
+{
+	width: 370px;
+	background-color: #800000;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	background-color: #990000;
+}

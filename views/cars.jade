@@ -1,0 +1,48 @@
+extends layout
+
+block content
+
+
+  table
+    thead
+        tr
+                form(action='addcar.html' method="post")
+                 input(type='text', name='carID')
+                 input(type='submit', value='Dej lajka')
+                th nr
+                th marka
+                th model
+                th rok
+                th pojemnosc silnika
+                th paliwo
+                th moc
+                th naped
+                th opis
+                th fabryka
+            
+    thbody
+        each item in dane
+            tr
+                td #{item.id}
+                    p
+                td #{item.brandName}
+                    p
+                td #{item.model}
+                    p
+                td #{item.modelYear}
+                    p
+                td #{item.engineCapacity}
+                    p
+                td #{item.fuel}
+                    p
+                td #{item.enginePower}
+                    p
+                td #{item.wheelDrive}
+                    p
+                td #{item.carDescription}
+                    p
+                td #{item.factoryName}
+                    p
+                td
+                    img(src="#{item.picture_path}")
+                
